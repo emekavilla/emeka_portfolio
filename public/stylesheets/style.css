@@ -1,8 +1,47 @@
-*body {
+body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("http://patriciamitt.com.br/images/backgrounds/portfolio-background.jpg");
+  background-size: 1280px 760px;
+  background-repeat: no-repeat;
+  font-style: italic;
+  font-size: 18px;
+
+   }
 
 a {
-  color: #00B7FF; }*/
+  color: #00B7FF;
 
-/*# sourceMappingURL=style.css.map */
+  }
+
+.container {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
